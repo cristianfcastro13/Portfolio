@@ -26,4 +26,4 @@ document.addEventListener('DOMContentLoaded', function() {
       let valid = true;
       const name = document.getElementById('name').value;
       const email = document.getElementById('email').value;
-      const message
+      const message;
