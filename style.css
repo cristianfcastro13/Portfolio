@@ -19,6 +19,7 @@ header {
   top: 0;
   color: #fff;
   padding: 1rem 0;
+  z-index: 100;
 }
 
 header .container {
