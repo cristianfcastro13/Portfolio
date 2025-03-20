@@ -11,14 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 
-  // Hamburger menu
-  const hamburger = document.querySelector('.hamburger');
-  const navLinks = document.querySelector('.nav-links');
-
-  hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
-  });
-
   // Form validation
   const form = document.getElementById('contact-form');
 
@@ -26,6 +18,5 @@ document.addEventListener('DOMContentLoaded', function() {
       let valid = true;
       const name = document.getElementById('name').value;
       const email = document.getElementById('email').value;
-      const message;
   })
 })
