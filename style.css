@@ -1,10 +1,12 @@
 /* style.css */
 
-body {
-  font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+
+html, body {
+  font-family: Lora, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 .container {
@@ -14,10 +16,10 @@ body {
 }
 
 header {
-  background-color: #fcc201;
+  background-color: #ffb800;
   position: sticky;
   top: 0;
-  color: #000;
+  color: #fff;
   padding: -1rem 0;
   z-index: 100;
 }
@@ -38,7 +40,7 @@ header .container {
 }
 
 .nav-links a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -47,7 +49,8 @@ header .container {
 }
 
 #about {
-  background-color: #f4f4f4;
+  background-color: #0095d5;
+  color: #fff;
 }
 
 .about-content {
